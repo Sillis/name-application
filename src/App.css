@@ -1,38 +1,72 @@
-.App {
+.amountDisplay {
+  overflow: hidden;
+  color: #19456b;
+  background-color: lightblue;
+  margin: 1em;
+  border-radius: 1em;
+  font-family: Microsoft Tai Le;
+  line-height: 1em;
+}
+
+.nameDisplay {
+  float: left;
+  width: 50%;
+  overflow: hidden;
+  color: #19456b;
+  background-color: lightblue;
+  margin: 1em;
+  margin-top: 0;
+  border-radius: 1em;
+  font-family: Microsoft Tai Le;
+  font-weight: lighter;
+  line-height: 1em;
+}
+
+.headline {
   text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: large;
+  font-weight: 600;
+  color: #19456b;
+  background-color: lightcoral;
+  border-top: 1em;
+  border-radius: 1em;
+  margin: 2em, 0, 2em, 0;
+  font-family: Microsoft Tai Le;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bottomline {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: large;
+  font-weight: 600;
+  color: #19456b;
+  background-color: lightcoral;
+  border-top: 1em;
+  border-radius: 1em;
+  margin: 2em, 0, 2em, 0;
+  font-family: Microsoft Tai Le;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App {
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  background-color: none;
+  border-radius: 0.5em;
+  margin-top: 1em;
+  font-family: Microsoft Tai Le;  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.sectionTitle {
+  font-size: larger;
+  color: #19456b;
+  font-family: Microsoft Tai Le;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.displayContainer {
+  color: #19456b;
+  font-family: Microsoft Tai Le;
 }
